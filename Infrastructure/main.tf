@@ -18,7 +18,7 @@ provider "github" {
 resource "github_repository" "this" {
   name        = var.repo_name
   description = var.repo_description
-  visibility  = "private"
+  visibility  = "public"
 
   # No auto-created initial commit — this folder already has content to push
   # as the first commit, and an auto_init'd remote would conflict with that.
