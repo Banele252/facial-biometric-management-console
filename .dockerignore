@@ -1,0 +1,22 @@
+.git
+.venv
+**/__pycache__
+**/*.py[oc]
+**/.pytest_cache
+**/.ruff_cache
+.coverage
+htmlcov
+
+management-console/management-frontend/node_modules
+management-console/management-frontend/dist
+
+business understanding
+Documents
+docs
+*.md
+!README.md
+
+.env
+.env.*
+*.pem
+*.key

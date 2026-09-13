@@ -1,0 +1,9 @@
+# Copy to terraform.tfvars and fill in your own value (that file is gitignored).
+# Alternatively, skip this file and pass -var="github_owner=..." or set
+# TF_VAR_github_owner in your shell.
+
+github_owner = "your-github-username"
+
+# Uncomment to override the defaults in variables.tf:
+# repo_name        = "facial-biometric-management-console"
+# repo_description = "Management console for the facial biometric verification platform."

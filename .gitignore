@@ -1,0 +1,48 @@
+.DS_Store
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.venv-win/
+.env
+.env.*
+!.env.example
+
+# Test and lint caches
+.pytest_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Node / frontend
+node_modules/
+management-console/management-frontend/dist/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+!terraform.tfvars.example
+
+# Build and scan output
+*.sarif
+sbom*.json
+
+# LaTeX build artefacts
+*.aux
+*.fls
+*.fdb_latexmk
+RDS.log
+*.synctex.gz
+IRS.log
+fallback_verification_audit.log
